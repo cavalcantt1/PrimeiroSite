@@ -1,0 +1,58 @@
+body {
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#header {
+    width: 700px;
+    height: 82px;
+    display: flex;
+
+}
+
+#logo {
+    width: 180px;
+    height: 82px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navegacao {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#navegacao ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#navegacao ul li {
+    list-style: none;
+    height: 100%;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+
+}
+
+#navegacao ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
